@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-:root{
+:root {
   --black: #000;
   --white: #fff;
 }
@@ -97,34 +97,95 @@ body {
   align-items: center;
   flex-shrink: 0;
   background-color: white;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 /* NAVEGAÇÃO */
+
 #subheader {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  height: 60px;
   width: 100%;
 }
-#subheader nav ul{
+#subheader nav ul {
   display: flex;
-  gap: 60px
+  gap: 60px;
 }
-#subheader nav ul li a{
+#subheader nav ul li a {
   color: var(--black);
   text-decoration: none;
-
 }
 
+.banner-content {
+  display: flex;
+  align-items: center;
+  background: url("imagens/banner.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
 
-#cta-button {
-  background-color: var(--black);
-  border-radius: .5rem;
+.banner-text {
+  display: flex;
+  width: 386px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+  margin-left: 120px;
+}
+
+.banner-text h1 {
+  color: var(--black);
+  font-family: Jomhuria;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 75% */
+}
+
+.banner-text p {
+  color: var(--black);
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-text button {
+  display: flex;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 220px;
+  padding: 20px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: var(--black);
+  border: none;
   color: var(--white);
-  display: inline-block;
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  padding: .75rem 1.5rem;
-  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.banner-text button img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text button:hover {
+  background: var(--white);
+  color: var(--black);
+  transition: all 0.3s ease-in-out;
+}
+
+.banner-text button:hover img {
+  filter: invert(1);
+  transition: all 0.3s ease-in-out;
 }
