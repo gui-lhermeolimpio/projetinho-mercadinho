@@ -41,7 +41,7 @@
             />
           </div>
           <div class="side-buttons">
-            <button>
+            <button id="cart-button">
               <span>
                 <img src="assets/icon/bau.svg" alt="" />
               </span>
@@ -170,5 +170,24 @@
       </section>
       <p>&copy; 2025 Monkeys development</p>
     </footer>
+
+    <!-- Carrinho lateral não ta pronto ainda, blz? tem que mudar no script -->
+    <div id="cart-sidebar" class="cart-hidden">
+      <div class="cart-header">
+        <h2>Seu Carrinho</h2>
+        <button id="close-cart">
+          <img src="/homepage/assets/icon/close-cart-button.svg" alt="" />
+        </button>
+      </div>
+      <ul class="cart-items">
+        <!-- Itens do carrinho serão adicionados aqui -->
+      </ul>
+      <div class="cart-footer">
+        <p>Total: R$ 225,01</p>
+        <button>Continuar</button>
+      </div>
+    </div>
+
+    <script src="/scripts/index.js"></script>
   </body>
 </html>
