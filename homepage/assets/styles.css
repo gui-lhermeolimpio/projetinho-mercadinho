@@ -1,0 +1,101 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+#main-header {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  z-index: 1;
+}
+
+.header-content {
+  display: flex;
+  margin: 0 120px 0 120px;
+  padding: 18px;
+  align-items: center;
+}
+
+.input-container {
+  margin-left: 120px;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  padding: 4px;
+}
+
+.input-container {
+  width: 386px;
+}
+
+.input-container input {
+  background: url("icon/search-icon.svg");
+  height: 32px;
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  padding: 4px 8px 4px 15px;
+  align-items: center;
+  gap: 14px;
+  color: #fff;
+  width: 100%;
+}
+
+.input-container input::placeholder {
+  color: #fff;
+  font-family: Sora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.side-buttons {
+  display: flex;
+  width: 230px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+  gap: 75px;
+}
+
+.side-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#main-header img {
+  display: flex;
+  align-items: center;
+}
+
+#subheader {
+  display: flex;
+  width: 1440px;
+  height: 60px;
+  padding: 0px 120px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#subheader nav {
+}

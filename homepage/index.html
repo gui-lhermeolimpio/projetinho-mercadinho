@@ -1,102 +1,166 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>AnimaShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Animashop</title>
-</head>
-
-<body>
+  <body>
     <header>
-        <section id="main-header">
-            <p>Logo, barra de pesquisa, carrinho, favoritos e configurações</p>
-        </section>
-        <section id="nav">
-            <nav>
-                <ul>
-                    <li><a href="#rpg-books">Livros</a></li>
-                    <li><a href="#dices">Dados</a></li>
-                    <li><a href="#miniatures">Miniaturas</a></li>
-                    <li><a href="#battle-maps">Mapas</a></li>
-                    <li><a href="#characters">Personagens</a></li>
-                    <li><a href="#game-master">Mestres</a></li>
-                    <li><a href="#rpg-items">Itens</a></li>
-                    <li><a href="#events">Eventos</a></li>
-                </ul>
-            </nav>
-        </section>
+      <section id="main-header">
+        <div class="header-content">
+          <img src="assets/logo/logo-preto.svg" alt="Logo Preta" />
+          <div class="input-container">
+            <span class="search-icon"
+              ><img src="assets/icon/search-icon.svg" alt="Search Icon"
+            /></span>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Dados, tabuleiros, guias..."
+            />
+          </div>
+          <div class="side-buttons">
+            <button>
+              <span>
+                <img src="assets/icon/bau.svg" alt="" />
+              </span>
+            </button>
+            <button>
+              <span>
+                <img src="assets/icon/favorito.svg" alt="" />
+              </span>
+            </button>
+            <button>
+              <span>
+                <img src="assets/icon/theme-icon.svg" alt="" />
+              </span>
+            </button>
+            <button>
+              <span>
+                <img
+                  src="assets/icon/person.svg"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="subheader">
+        <nav>
+          <ul>
+            <li><a href="#rpg-books">Livros</a></li>
+            <li><a href="#dices">Dados</a></li>
+            <li><a href="#miniatures">Miniaturas</a></li>
+            <li><a href="#battle-maps">Mapas</a></li>
+            <li><a href="#characters">Personagens</a></li>
+            <li><a href="#game-master">Mestres</a></li>
+            <li><a href="#rpg-items">Itens</a></li>
+            <li><a href="#events">Eventos</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
     <main>
-        <section id="hero">
-            <div id="banner">
-                <h1>Dados personalizados para aventuras épicas</h1>
-                <p>Explore a nossa coleção exclusiva de dados para RPG de mesa. Qualidade, precisão e estilo para cada
-                    rolagem!</p>
-                <a href="#about" id="cta-button">Saiba mais</a>
-                <img src="./imagens/demonstracao.webp" alt="Imagem de exemplo">
-            </div>
-            <div id="featured-products">
-                <h2>Recomendações para você :)</h2>
-                <ul class="product-cards">
-                    <li>
-                        <article>
-                            <img src="./imagens/gato.jpeg" alt="Imagem de exemplo">
-                            <h3>Nome do Produto</h3>
-                            <p>Descrição</p>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <img src="./imagens/gato.jpeg" alt="Imagem de exemplo">
-                            <h3>Nome do Produto</h3>
-                            <p>Descrição</p>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <img src="./imagens/gato.jpeg" alt="Imagem de exemplo">
-                            <h3>Nome do Produto</h3>
-                            <p>Descrição</p>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <img src="./imagens/gato.jpeg" alt="Imagem de exemplo">
-                            <h3>Nome do Produto</h3>
-                            <p>Descrição</p>
-                        </article>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section id="hero">
+        <div id="banner">
+          <h1>Dados personalizados para aventuras épicas</h1>
+          <p>
+            Explore a nossa coleção exclusiva de dados para RPG de mesa.
+            Qualidade, precisão e estilo para cada rolagem!
+          </p>
+          <a href="#about" id="cta-button">Saiba mais</a>
+          <img
+            src="./assets/imagens/demonstracao.webp"
+            alt="Imagem de exemplo"
+          />
+        </div>
+        <div id="featured-products">
+          <h2>Recomendações para você :)</h2>
+          <ul class="product-cards">
+            <li>
+              <article>
+                <img src="./assets/imagens/gato.jpeg" alt="Imagem de exemplo" />
+                <h3>Nome do Produto</h3>
+                <p>Descrição</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="./assets/imagens/gato.jpeg" alt="Imagem de exemplo" />
+                <h3>Nome do Produto</h3>
+                <p>Descrição</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="./assets/imagens/gato.jpeg" alt="Imagem de exemplo" />
+                <h3>Nome do Produto</h3>
+                <p>Descrição</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="./assets/imagens/gato.jpeg" alt="Imagem de exemplo" />
+                <h3>Nome do Produto</h3>
+                <p>Descrição</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <section id="contact-info">
-            <h2>Contato</h2>
-            <p>Entre em contato com nossa equipe para tirar duvidas, reportar erros ou fazer reclamações.</p>
+      <section id="contact-info">
+        <h2>Contato</h2>
+        <p>
+          Entre em contato com nossa equipe para tirar duvidas, reportar erros
+          ou fazer reclamações.
+        </p>
 
-            <address>
-                <p>
-                    <strong>Endereço:</strong>
-                    R. Borboletas Psicodélicas - Vila Guarani - SP, 04313-110
-                </p>
-            </address>
-                <div>
-                    <p>
-                        <strong>Telefone:</strong>
-                         (14)12345-6789
-                    </p>
-                    <p>
-                        <strong>Email:</strong>
-                        <a href="mailto:suporte@gmail.com">suporte@gmail.com</a>
-                    </p>
-                </div>       
-        </section>
-        <p>&copy; 2025 Monkeys development</p>
+        <address>
+          <p>
+            <strong>Endereço:</strong>
+            R. Borboletas Psicodélicas - Vila Guarani - SP, 04313-110
+          </p>
+        </address>
+        <div>
+          <p>
+            <strong>Telefone:</strong>
+            (14)12345-6789
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:suporte@gmail.com">suporte@gmail.com</a>
+          </p>
+        </div>
+      </section>
+      <p>&copy; 2025 Monkeys development</p>
     </footer>
-</body>
-
+  </body>
 </html>
