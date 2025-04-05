@@ -14,4 +14,10 @@ closeCartButton.addEventListener("click", () => {
   cartSidebar.classList.add("cart-hidden");
 });
 
-// para fechar o carrinho ao clicar fora dele
+// para fechar o carrinho com o ESC
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    cartSidebar.classList.remove("cart-visible");
+    cartSidebar.classList.add("cart-hidden");
+  }
+});
