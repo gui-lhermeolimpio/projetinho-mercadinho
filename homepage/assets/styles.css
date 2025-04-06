@@ -114,6 +114,17 @@ body {
   text-decoration: none;
 }
 
+#subheader nav ul li a:hover {
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-color: var(--black);
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 12.5%; /* 2px */
+  text-underline-offset: 22%; /* 3.52px */
+  text-underline-position: from-font;
+}
+
 .banner-content {
   display: flex;
   align-items: center;
