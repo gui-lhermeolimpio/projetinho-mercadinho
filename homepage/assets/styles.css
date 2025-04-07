@@ -202,6 +202,58 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+/* Recomendados */
+#recomendados {
+  width: 1202px;
+  height: fit-content;
+  margin-top: 40px;
+}
+
+#recomendados h2 {
+  margin-left: 120px;
+  color: var(--black);
+
+  font-family: Jomhuria;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recomendados-content {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 320px);
+  grid-column-gap: 20px;
+  grid-row-gap: 60px;
+  margin-left: 120px;
+}
+
+.card1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.card2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.card3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.card4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.card5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.card6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.card7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.card8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
 /* Carrinho lateral */
 #cart-sidebar {
   position: fixed;
