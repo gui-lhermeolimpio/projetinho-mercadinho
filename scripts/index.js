@@ -1,3 +1,5 @@
+// * Carrinho lateral
+
 const cartButton = document.getElementById("cart-button");
 const cartSidebar = document.getElementById("cart-sidebar");
 const closeCartButton = document.getElementById("close-cart");
@@ -21,3 +23,5 @@ window.addEventListener("keydown", (event) => {
     cartSidebar.classList.add("cart-hidden");
   }
 });
+
+// * Botão de adicionar aos favoritos
