@@ -25,3 +25,12 @@ window.addEventListener("keydown", (event) => {
 });
 
 // * Botão de adicionar aos favoritos
+const favButton = document.querySelectorAll(".fav-inactive");
+
+const favButtons = document.querySelectorAll(".fav-inactive");
+
+favButtons.forEach((favButton) => {
+  favButton.addEventListener("click", () => {
+    favButton.classList.toggle("fav-active");
+  });
+});

@@ -304,6 +304,18 @@ body {
   height: 30px;
 }
 
+.fav-inactive {
+  background: url("icon/favorito-outlined.svg") no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.fav-active {
+  background: url("icon/favorito-filled.svg") no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+
 /* Carrinho lateral */
 #cart-sidebar {
   position: fixed;
