@@ -316,6 +316,31 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.botao-comprar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 40px;
+  padding: 0;
+  border-radius: 5px;
+  background: var(--black);
+  border: none;
+  color: var(--white);
+  font-family: Jomhuria;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  cursor: pointer;
+}
+.botao-comprar:hover {
+  background: var(--white);
+  color: var(--black);
+  transition: all 0.3s ease-in-out;
+}
+
 /* Carrinho lateral */
 #cart-sidebar {
   position: fixed;
