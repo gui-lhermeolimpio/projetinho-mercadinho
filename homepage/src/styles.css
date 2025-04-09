@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   list-style: none;
   padding: 0;
@@ -128,7 +130,7 @@ body {
 .banner-content {
   display: flex;
   align-items: center;
-  background: url("imagens/banner.png") no-repeat;
+  background: url("assets/imagens/banner.png") no-repeat;
   background-position: center;
   background-size: cover;
   height: 540px;
@@ -294,9 +296,6 @@ body {
 .card-content h3 button {
   border: none;
   background-color: transparent;
-  position: absolute;
-  top: 50%;
-  right: 15px;
   transform: translateY(-50%);
   margin-top: 15px;
   cursor: pointer;
@@ -305,13 +304,13 @@ body {
 }
 
 .fav-inactive {
-  background: url("icon/favorito-outlined.svg") no-repeat;
+  background: url("assets/icon/favorito-outlined.svg") no-repeat;
   background-position: center;
   transition: all 0.3s ease-in-out;
 }
 
 .fav-active {
-  background: url("icon/favorito-filled.svg") no-repeat;
+  background: url("assets/icon/favorito-filled.svg") no-repeat;
   background-position: center;
   transition: all 0.3s ease-in-out;
 }
