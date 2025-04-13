@@ -232,8 +232,7 @@ body {
   margin-left: 120px;
 }
 
-.card1 {
-  grid-area: 1 / 1 / 2 / 2;
+.card {
   border-radius: 20px;
   border: 1px solid var(--stroke-card-color, #f5eded);
   background: var(--card-color-light, #f9f9f9);
@@ -298,7 +297,7 @@ body {
   align-items: center;
 }
 
-.card-content p {
+.card-description {
   color: #000;
   font-family: Sora;
   font-size: 12px;
