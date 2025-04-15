@@ -224,6 +224,14 @@ body {
   line-height: normal;
 }
 
+.recomendados-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
